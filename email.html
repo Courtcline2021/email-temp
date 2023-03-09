@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Page</title>
+</head>
+<body> <!-- Nav bar really wasnt sure how to adjust this into my own code. I looks way to complicated to mess with-->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cline Home Designs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project Manager</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Reports</a></li>
+                  <li><a class="dropdown-item" href="#">Client List</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Progress Report</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Log Out</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="row w-100">
+      <!--This is my menu bar. It displays email folders that a user might need -->
+  <div class="col-sm-12 col-md-4 col-lg-2 firstc">
+    <button type="button" class="btn btn-dark">Create Email +</button>
+      <ul class="list-group">
+      <li class="list-group-item">Inbox</li>
+      <li class="list-group-item">Sent</li>
+      <li class="list-group-item">Starred</li>
+      <li class="list-group-item">Spam</li>
+      <li class="list-group-item">Trash</li>
+      </ul>
+  </div>
+  <!--This is my top  email display.It shows current emails with some preview text-->
+  <div class="col-sm-12 col-md-8 col-lg-2 secondc">
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+        Sara Parker <p>Hey Court can you please send over..</p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        Aspen Rays <p>Hello Mrs. Cline it was a please meeting you yesterday to go over the ..</p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        Raven Claw <p>Hey Courtney, Can you please send over the Allen, James, Kris, and Paulson material reports...</p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        Ryan Zander <p>Hey can you send over the Thampson Account....</p>
+      </a>
+      <a class="list-group-item list-group-item-action disabled">
+        Calvin Range <p>Hey stop by my office at lunch.. </p>
+      </a>
+    </div>
+  </div>
+  <!--This is a current email being drafted and I added some email addresses and information about the email being composed-->
+  <div class="col-sm-12 col-md-12 col-lg-6 thirdc">
+    <h2>From: clinehomedesigns@gmail.com</h2>
+    <h2>To: russelwisonbrco@gmail.com</h2>
+    <h1>Subject: Remodel Quote</h1>
+      <p>
+      Good morning Mr. Wilson, 
+        Thank you for sending over the pictures of the rooms you want to update.<br>
+        We will draft up a few designs, we will use the materials you requested <br>
+        and the color scheme that we chatted about. My project manager will be <br> 
+        be in touch to go over a schedule that suits you and your family. Once <br> 
+        the schedule is drafted we will start the process of bring materials onsite<br>
+        .I have scheduled a walk through meeting with myself, the construction manager,<br>
+        and your wife on 4/05/2023 at 1330. If you have any questions please feel free<br>
+        to reach out to me at any time.<br>
+        <br>
+        <br>
+        <br>
+        Thank you,<br> 
+        <br>
+
+        Courtney Cline<br>
+        Cline Home Designs <br>
+      </p>
+    <!--Added a button so the email can be sent when ready-->
+    <div class="container btn">
+    <button type="button" class="btn btn-primary btn-lg">Send</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!--Add a photo to my background to make it pop. I wanted it to look a like a professional page.-->
+  <!--<div class="photo">
+    <img src="home pic.jpg" alt="background">
+  </div>-->
+  <footer class="container">
+    @Cline Home Design LLC 
+  </footer>
+  </body>
+</html>
