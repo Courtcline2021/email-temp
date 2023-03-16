@@ -46,6 +46,11 @@ h1>p {
     color:rgb(225, 53, 79);
     background-color: blanchedalmond;
 }
+
+span:hover{
+    color: black;
+    background-color:blanchedalmond;
+}
 /*Just wanted to center my text in the center*/
 footer {
     display: flex;
