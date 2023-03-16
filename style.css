@@ -1,23 +1,33 @@
+/*This just added some spacing to the page made it look a little more put together */
 * {
     margin: 5px;
     padding: 15px;
+
 }
+ nav{
+    border-radius: 5px;
+    color: pink;
+ }
+
+/*This is my first column*/
 .firstc {
     background-color: pink;
 }
-
+/*This is my second column*/
 .secondc {
     background-color: rgb(193, 134, 143);
 }
-
+/*This this is my third column I wanted to add a shadow box to make the email pop and stand out*/
 .thirdc {
-    background-color:rgb(196, 115, 127)
+    background-color:rgb(196, 115, 127);
+    box-shadow: 5px 10px grey;
+    border-radius: 5px;
 }
-
+/*this is my list of emails I just wanted to round the edges out */
 .list-group-item {
     border-radius: 10px;
 }
-
+/*The next to elements I wanted to make sure that my text didnt flow out of the boxes*/
 a>p {
     text-overflow: clip;
 }
@@ -26,12 +36,18 @@ a>p {
 h1>p {
     text-overflow: clip ;
 }
-
-.btn {
-    display: flex;
-    justify-content: center;
+/* I wanted to style my send button to match the style of the page*/
+.btn-lg {
+    color: pink;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    width: 100px;
 }
-
+.btn-lg:hover{
+    color:rgb(225, 53, 79);
+    background-color: blanchedalmond;
+}
+/*Just wanted to center my text in the center*/
 footer {
     display: flex;
     justify-content: center;
